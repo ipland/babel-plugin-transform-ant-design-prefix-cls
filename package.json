@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-transform-ant-design-prefix-cls",
+  "version": "1.0.0",
+  "description": "Transform ant-design component hardcoded prefixCls.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "publish": "npm run build && npm publish"
+  },
+  "keywords": [
+    "babel-plugin",
+    "transform-ant-design-prefix-cls"
+  ],
+  "author": "ipland <ipland630@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipland/babel-plugin-transform-ant-design-prefix-cls.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ipland/babel-plugin-transform-ant-design-prefix-cls/issues"
+  },
+  "homepage": "https://github.com/ipland/babel-plugin-transform-ant-design-prefix-cls#readme",
+  "dependencies": {}
+}
